@@ -5,11 +5,13 @@ import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
 
+import Footer from "../components/footer"
+
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <h1>Hey, I'm Tim</h1>
-    <h2>I'm an ETL developer looking for opportunities in Data Engineering. traveller, biker.</h2>
+    <h2>I'm an ETL developer looking for opportunities in Data Engineering. I love travelling, motorcyling trips and tea.</h2>
     <p>Now go build something great.</p>
     <p>Make progress or make excuses</p>
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
@@ -25,7 +27,9 @@ const IndexPage = () => (
     <Link to="/about/">about</Link>
     <br />
     <Link to="/now/">now</Link></p>
+    <Footer />
   </Layout>
+  
 )
 
 export default IndexPage

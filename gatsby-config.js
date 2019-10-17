@@ -3,6 +3,7 @@ module.exports = {
     title: `Tim Wong`,
     description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
     author: `@bytimwong`,
+    siteUrl: 'https://www.bytimwong.com'//added for robots.txt not sure whether its needed or not
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -14,6 +15,7 @@ module.exports = {
       },
     },
     `gatsby-transformer-sharp`,
+    `gatsby-plugin-robots-txt`,
     `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,
